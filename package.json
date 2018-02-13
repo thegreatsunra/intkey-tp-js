@@ -1,0 +1,36 @@
+{
+  "name": "intkey-tp-js",
+  "description": "An implementation of the intkey transaction family using the Hyperledger Sawtooth Javascript SDK",
+  "version": "0.1.0",
+  "homepage": "https://github.com/thegreatsunra/intkey-tp-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thegreatsunra/intkey-tp-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thegreatsunra/intkey-tp-js/issues"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 8.1.0",
+    "npm": ">= 5.0.3"
+  },
+  "dependencies": {
+    "cbor": "^3.0.3",
+    "sawtooth-sdk": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js *.config* src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

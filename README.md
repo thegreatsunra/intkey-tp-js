@@ -22,7 +22,7 @@ sawtooth-validator
 cd intkey-tp-js
 
 # this will listen automatically at tcp://localhost:4004
-npm start
+node index.js
 
 # pass an argument to index.js to listen at a different address/port:
 node index.js tcp://192.168.1.1:4000

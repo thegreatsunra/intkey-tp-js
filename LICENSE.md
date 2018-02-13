@@ -1,7 +1,7 @@
 # Apache License
 
-Version 2.0, January 2004
-http://www.apache.org/licenses/
+Version 2.0, January 2004  
+http://www.apache.org/licenses/  
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -38,6 +38,7 @@ Subject to the terms and conditions of this License, each Contributor hereby gra
 #### 4. Redistribution.
 
 You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+
 1. You must give any other recipients of the Work or Derivative Works a copy of this License; and
 1. You must cause any modified files to carry prominent notices stating that You changed the files; and
 1. You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and

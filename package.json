@@ -3,6 +3,19 @@
   "description": "An implementation of the intkey transaction family using the Hyperledger Sawtooth Javascript SDK",
   "version": "0.0.0",
   "homepage": "https://github.com/thegreatsunra/intkey-tp-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thegreatsunra/intkey-tp-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thegreatsunra/intkey-tp-js/issues"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 8.1.0",
+    "npm": ">= 5.0.3"
+  },
   "dependencies": {
   },
   "devDependencies": {

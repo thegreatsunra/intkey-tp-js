@@ -24,5 +24,6 @@
   },
   "scripts": {
     "start": "node index.js tcp://localhost:4004",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

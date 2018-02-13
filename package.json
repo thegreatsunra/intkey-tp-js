@@ -21,5 +21,6 @@
   "devDependencies": {
   },
   "scripts": {
+    "start": "node index.js tcp://localhost:4004",
   }
 }

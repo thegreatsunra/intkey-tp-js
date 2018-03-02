@@ -35,4 +35,6 @@ intkey load
 
 ## Notes
 
+Instead of the `intkey` CLI, you can also use [intkey-client-js](https://github.com/thegreatsunra/intkey-client-js) to send transactions to your intkey transaction processor
+
 Consider using pm2 (`npm install -g pm2`) for starting intkey-tp-js as a long-running process

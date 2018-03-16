@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "cbor": "^4.0.0",
+    "dotenv": "^5.0.1",
     "sawtooth-sdk": "^1.0.1"
   },
   "devDependencies": {

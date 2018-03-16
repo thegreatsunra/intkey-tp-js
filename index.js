@@ -18,9 +18,9 @@
 const { TransactionProcessor } = require('sawtooth-sdk/processor')
 const IntegerKeyHandler = require('./intkey_handler')
 
-const address = process.argv[2] || 'tcp://localhost:4004'
+const env = require('./env')
 
-const transactionProcessor = new TransactionProcessor(address)
+const transactionProcessor = new TransactionProcessor(env.validatorUrl)
 
 transactionProcessor.addHandler(new IntegerKeyHandler())
 

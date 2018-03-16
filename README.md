@@ -28,7 +28,7 @@ intkey create_batch
 intkey load
 ```
 
-### Configuring Sawtooth Validator URL
+### Configuring the Sawtooth Validator URL
 
 By default, the intkey transaction processor will attempt to connect to a Sawtooth Validator at `tcp://localhost:4004`.
 

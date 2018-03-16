@@ -35,7 +35,7 @@ By default, the intkey transaction processor will attempt to connect to a Sawtoo
 To connect to a Validator at a different URL:
 
 1. Make a copy of the file `.env.example` and name it `.env`
-1. Edit `.env` and change the value of `VALIDATOR_URL` to the location of your Sawtooth Validaotr
+1. Edit `.env` and change the value of `VALIDATOR_URL` to the location of your Sawtooth Validator
 1. The next time you run `node index.js` the URL you specified in `.env` will be used automatically 
 
 ## Notes

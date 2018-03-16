@@ -16,8 +16,8 @@
  */
 
 const { TransactionProcessor } = require('sawtooth-sdk/processor')
-const IntegerKeyHandler = require('./intkey_handler')
 
+const IntegerKeyHandler = require('./intkey_handler')
 const env = require('./env')
 
 const transactionProcessor = new TransactionProcessor(env.validatorUrl)
@@ -26,4 +26,5 @@ transactionProcessor.addHandler(new IntegerKeyHandler())
 
 transactionProcessor.start()
 
-console.log('started transaction processor')
+console.log(`Starting intkey transaction processor`)
+console.log(`Connecting to Sawtooth validator at ${env.validatorUrl}`)

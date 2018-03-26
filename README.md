@@ -43,3 +43,9 @@ To connect to a Validator at a different URL:
 Instead of the Python-based Sawtooth `intkey` CLI, you can also use [intkey-client-js](https://github.com/thegreatsunra/intkey-client-js) to send transactions to your intkey transaction processor
 
 Consider using [pm2](https://github.com/Unitech/pm2) (`npm install -g pm2`) for starting intkey-tp-js as a long-running process
+
+## License
+
+The Apache License, Version 2.0
+
+Copyright (c) 2018 Dane Petersen

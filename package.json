@@ -10,8 +10,20 @@
   "bugs": {
     "url": "https://github.com/thegreatsunra/intkey-tp-js/issues"
   },
-  "author": "",
+  "author": "Dane Petersen <thegreatsunra@gmail.com>",
   "license": "Apache-2.0",
+  "contributors": [
+    {
+      "name": "Jake Ingman",
+      "email": "jingman@gmail.com",
+      "url": "https://github.com/jingman"
+    },
+    {
+      "name": "Dane Petersen",
+      "email": "thegreatsunra@gmail.com",
+      "url": "https://github.com/thegreatsunra"
+    }
+  ],
   "engines": {
     "node": ">= 8.1.0",
     "npm": ">= 5.0.3"

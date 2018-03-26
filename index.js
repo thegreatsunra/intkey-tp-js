@@ -23,7 +23,6 @@ const env = require('./env')
 const transactionProcessor = new TransactionProcessor(env.validatorUrl)
 
 transactionProcessor.addHandler(new IntegerKeyHandler())
-
 transactionProcessor.start()
 
 console.log(`Starting intkey transaction processor`)
